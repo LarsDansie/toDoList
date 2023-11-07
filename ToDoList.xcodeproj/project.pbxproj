@@ -14,6 +14,8 @@
 		2D163E1F2AF13969003AC133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D163E1D2AF13969003AC133 /* LaunchScreen.storyboard */; };
 		2D163E272AF13CA8003AC133 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E262AF13CA8003AC133 /* ToDo.swift */; };
 		2D163E292AF13E34003AC133 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E282AF13E34003AC133 /* ToDoTableViewController.swift */; };
+		2D163E2B2AF15FBE003AC133 /* ToDoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E2A2AF15FBE003AC133 /* ToDoDetailTableViewController.swift */; };
+		2D163E552AFA88B5003AC133 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E542AFA88B5003AC133 /* ToDoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2D163E202AF13969003AC133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D163E262AF13CA8003AC133 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		2D163E282AF13E34003AC133 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		2D163E2A2AF15FBE003AC133 /* ToDoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableViewController.swift; sourceTree = "<group>"; };
+		2D163E542AFA88B5003AC133 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 				2D163E122AF13966003AC133 /* AppDelegate.swift */,
 				2D163E142AF13966003AC133 /* SceneDelegate.swift */,
 				2D163E182AF13966003AC133 /* Main.storyboard */,
+				2D163E2A2AF15FBE003AC133 /* ToDoDetailTableViewController.swift */,
 				2D163E262AF13CA8003AC133 /* ToDo.swift */,
 				2D163E282AF13E34003AC133 /* ToDoTableViewController.swift */,
+				2D163E542AFA88B5003AC133 /* ToDoCell.swift */,
 				2D163E1B2AF13969003AC133 /* Assets.xcassets */,
 				2D163E1D2AF13969003AC133 /* LaunchScreen.storyboard */,
 				2D163E202AF13969003AC133 /* Info.plist */,
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D163E272AF13CA8003AC133 /* ToDo.swift in Sources */,
+				2D163E552AFA88B5003AC133 /* ToDoCell.swift in Sources */,
+				2D163E2B2AF15FBE003AC133 /* ToDoDetailTableViewController.swift in Sources */,
 				2D163E292AF13E34003AC133 /* ToDoTableViewController.swift in Sources */,
 				2D163E132AF13966003AC133 /* AppDelegate.swift in Sources */,
 				2D163E152AF13966003AC133 /* SceneDelegate.swift in Sources */,
